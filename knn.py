@@ -33,3 +33,16 @@ plt.xlabel("Sepal length")
 plt.ylabel("Sepal width")
 
 plt.show()
+
+# Algorithm of KNN
+# 1. Import the required libraries.
+# 2. Load the dataset.
+# 3. Separate input features (X) and output labels (Y).
+# 4. Split the dataset into training and testing data.
+# 5. Choose the value of K.
+# 6. Calculate the distance between test data and training data.
+# 7. Find the K nearest neighbors.
+# 8. Count the class labels of the K neighbors.
+# 9. Assign the majority class as the predicted output.
+# 10. Compare predicted output with actual output.
+# 11. Calculate and display the accuracy.
