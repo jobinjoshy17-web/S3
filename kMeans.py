@@ -46,3 +46,15 @@ plt.xlabel("Sepal Length")
 plt.ylabel("Sepal Width")
 
 plt.show()
+
+# Algorithm of K-Means Clustering
+# 1. Import the required libraries.
+# 2. Load the dataset.
+# 3. Select the input features.
+# 4. Choose the number of clusters (K).
+# 5. Initialize K random centroids.
+# 6. Calculate the distance between data points and centroids.
+# 7. Assign each data point to its nearest centroid.
+# 8. Calculate new centroids for each cluster.
+# 9. Repeat steps 6 to 8 until the centroids stop changing.
+# 10. Display the final clusters.
