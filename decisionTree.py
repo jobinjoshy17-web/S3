@@ -22,3 +22,14 @@ _ = tree.plot_tree(
     model, feature_names= iris.feature_names, class_names= iris.target_names, filled= True
 )
 plt.show()
+
+# Algorithm of Decision Tree
+# 1. Import the required libraries.
+# 2. Load the dataset.
+# 3. Separate input features (X) and output labels (Y).
+# 4. Split the dataset into training and testing data.
+# 5. Create a Decision Tree classifier.
+# 6. Train the model using training data.
+# 7. Predict the class labels for testing data.
+# 8. Compare predicted output with actual output.
+# 9. Calculate and display the accuracy.
